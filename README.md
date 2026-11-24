@@ -14,6 +14,7 @@ copier copy --trust gh:ianflanagan1/ts-ianf-strict-template my-project
 - ESLint, tsconfig and Prettier from the baseline, with `ts-ianf-strict-baseline verify` in `check` so the project can't drift from it
 - dependency-cruiser, extending the baseline's rules that keep `src/core/` free of I/O, knip for unused code and dependencies, Vitest
 - a `Result` type in the core, a `main()` top-level handler, a GitHub Actions workflow that runs `devbox run -- task check`
+- a `.gitignore` with `/cache/`, where the baseline's tasks keep Prettier's, tsc's and ESLint's caches; `ts-ianf-strict-baseline verify` fails without it
 - a `CLAUDE.md` to fill in
 - `.config/ianf-repo-tools.toml` with the integration mode you choose (`direct`, `pr-rebase` or `pr-merge`), which [repo-list and repo-fix](https://github.com/ianflanagan1/repo-tools) read; there's no default
 
