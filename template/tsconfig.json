@@ -1,5 +1,5 @@
 {
-  "extends": "@ianflanagan1/ts-baseline/tsconfig.json",
+  "extends": "@ianflanagan1/ts-ianf-strict-baseline/tsconfig.json",
   "compilerOptions": {
     "types": ["node"],
     "allowJs": true,

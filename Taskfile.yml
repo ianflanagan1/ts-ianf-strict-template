@@ -8,8 +8,8 @@ tasks:
 
   test:
     desc: >-
-      Generate a project from the template and run its own check, ts-baseline verify included. BASELINE replaces the
-      @ianflanagan1/ts-baseline version range, e.g. file:/path/to/package.tgz to try a baseline that isn't on npm yet.
+      Generate a project from the template and run its own check, ts-ianf-strict-baseline verify included. BASELINE replaces the
+      @ianflanagan1/ts-ianf-strict-baseline version range, e.g. file:/path/to/package.tgz to try a baseline that isn't on npm yet.
     vars:
       OUT:
         sh: mktemp -d

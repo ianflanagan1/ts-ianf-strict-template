@@ -1,11 +1,11 @@
 version: '3'
 
 # check, format and lint-file run the baseline's tasks, so their commands arrive as a version bump of
-# @ianflanagan1/ts-baseline. Add the project's own steps around them. The include is optional because setup
+# @ianflanagan1/ts-ianf-strict-baseline. Add the project's own steps around them. The include is optional because setup
 # installs it.
 includes:
   baseline:
-    taskfile: ./node_modules/@ianflanagan1/ts-baseline/Taskfile.baseline.yml
+    taskfile: ./node_modules/@ianflanagan1/ts-ianf-strict-baseline/Taskfile.baseline.yml
     optional: true
 
 tasks:

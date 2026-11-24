@@ -33,5 +33,5 @@ pnpm_version:
 
 baseline_version:
   type: str
-  help: The @ianflanagan1/ts-baseline version range
+  help: The @ianflanagan1/ts-ianf-strict-baseline version range
   default: ^0.2.0

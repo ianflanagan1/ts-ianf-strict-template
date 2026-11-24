@@ -4,5 +4,5 @@
 
 /** @type {import('dependency-cruiser').IConfiguration} */
 export default {
-  extends: '@ianflanagan1/ts-baseline/dependency-cruiser',
+  extends: '@ianflanagan1/ts-ianf-strict-baseline/dependency-cruiser',
 };

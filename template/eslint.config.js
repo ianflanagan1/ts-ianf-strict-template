@@ -1,6 +1,6 @@
 // @ts-check
 import { defineConfig } from 'eslint/config';
-import { baseline } from '@ianflanagan1/ts-baseline/eslint';
+import { baseline } from '@ianflanagan1/ts-ianf-strict-baseline/eslint';
 
 export default defineConfig(baseline(import.meta.dirname), {
   files: ['src/core/**/*.ts'],
