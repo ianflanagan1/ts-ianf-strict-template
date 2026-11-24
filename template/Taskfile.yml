@@ -15,9 +15,10 @@ tasks:
       - pnpm install --frozen-lockfile
 
   check:
-    desc: Formatting, types, lint, dependency rules, knip, ts-baseline verify and tests
+    desc: Formatting, types, lint, dependency rules, knip, ts-ianf-strict-baseline verify, tests and the COUPLED tags
     cmds:
       - task: baseline:check
+      - coupled-tags-lint
 
   format:
     desc: Format every file
