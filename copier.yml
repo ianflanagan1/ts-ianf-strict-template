@@ -19,7 +19,7 @@ integration:
   type: str
   help: How work reaches the trunk
   choices:
-    "local: commit on the trunk and push it": local
+    "direct: commit on the trunk and push it": direct
     "pr-rebase: branches are rebased and land through pull requests": pr-rebase
     "pr-merge: branches merge the trunk in and land through pull requests": pr-merge
 
